@@ -7,6 +7,9 @@ O projeto **MovieLibsLBS** foi desenvolvido para estudo por mim, Lucas Bargas, c
 ### Documentação da API do TMDB
 <https://developers.themoviedb.org/3>
 
+### Por que fiz este projeto?
+Recentemente recapitulei alguns tópicos sobre TypeScript no Youtube. Por isso decidi refatorar este projeto que havia sido desenvolvido em Nextjs sem TypeScript, e então aplicar a ele este superset. Foi um desafio, mas estou feliz com o resultado. 
+
 ### Principais recursos do App
 * Lista de filmes mais populares, melhores avaliados e que serão lançados em breve;
 * Busca de filmes por nome em português ou inglês;
