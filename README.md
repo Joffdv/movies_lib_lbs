@@ -15,6 +15,7 @@ O projeto **MovieLibsLBS** foi desenvolvido para estudo por mim, Lucas Bargas, c
 ### Tecnologias utilizadas
 #### Front end
 * Nextjs;
+* Typescript;
 * Styled components;
 * Hooks;
 * React Icons;
