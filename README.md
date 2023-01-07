@@ -22,7 +22,7 @@ Recentemente recapitulei alguns tópicos sobre TypeScript no Youtube. Por isso d
 * Styled components;
 * Hooks;
 * React Icons;
-* Renderizações SSG e SSR.
+* Renderização SSG e SSR.
 
 ### Prints do App (Versões Desktop e Mobile)
 
