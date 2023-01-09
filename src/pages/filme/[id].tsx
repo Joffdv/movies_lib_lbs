@@ -23,12 +23,10 @@ interface Props {
 }
 
 const Movie = ({ movie }: Props) => {
-  const movieChanged = movie && {
+  const movieChanged = {
     ...movie,
     poster: `${apiImage}${movie.poster_path}`,
   };
-
-  if (!movieChanged) return;
 
   return (
     <>
