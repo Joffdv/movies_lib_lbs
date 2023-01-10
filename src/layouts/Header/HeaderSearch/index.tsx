@@ -61,6 +61,7 @@ const HeaderSearch = ({ mobile, setMobile }: Props) => {
           onChange={({ target }) => setInputValue(target.value)}
           onBlur={handleBlur}
           onFocus={() => inputValue.length > 0 && setClearBtn(true)}
+          onMouseOver={() => inputValue.length > 0 && setClearBtn(true)}
         />
         <button type="submit">
           <i>

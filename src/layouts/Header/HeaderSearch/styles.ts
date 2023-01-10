@@ -14,6 +14,12 @@ export const HeaderSearchWrapper = styled.form`
   max-width: 400px;
   gap: .75rem;
 
+  &:hover {
+    input {
+
+    }
+  }
+
   @media (max-width: 1024px) {
     max-width: 100% !important;
   }
@@ -24,7 +30,7 @@ export const HeaderSearchWrapper = styled.form`
     padding: 0px 2.325rem 0px 0.875rem;
     border: 2px solid transparent;
 
-    &:focus {
+    &:focus, &:hover {
       border-color: ${({ theme }) => theme.colors.goldenColor};
       background: ${({ theme }) => theme.colors.secondaryColor};
       color: ${({ theme }) => theme.colors.lightColor};
